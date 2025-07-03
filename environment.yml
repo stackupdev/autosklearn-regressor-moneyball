@@ -1,0 +1,21 @@
+name: ml-auto
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - scikit-learn
+  - lightgbm
+  - matplotlib
+  - notebook
+  - pandas
+  - pip
+  - scipy
+  - seaborn
+  - sktime
+  - statsmodels
+  - ConfigSpace=0.4.21
+  - pip:
+      - pmdarima
+      - auto-sklearn
